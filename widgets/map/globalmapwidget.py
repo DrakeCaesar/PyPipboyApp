@@ -806,6 +806,7 @@ class MapGraphicsItem(QtCore.QObject):
         self.ne = None
         self.sw = None
         self.mapItem = self.PixmapItem(self)
+        self.mapItem.setTransformationMode(QtCore.Qt.SmoothTransformation)
         self.gwidget.mapScene.addItem(self.mapItem)
         self.mapItem.setZValue(-10)
     
@@ -1467,6 +1468,11 @@ class GlobalMapWidget(widgets.WidgetBase):
     
     @QtCore.pyqtSlot(int)
     def _slotMapFileComboTriggered(self, index):
+        try:
+            configFile = open(os.path.join(self.basepath, 'res', 'globalmapsconfig.json'))
+            self.mapFiles = json.load(configFile)
+        except Exception as e:
+            self._logger.error('Could not load map-files: ' + str(e))
         mapfile = self.mapFiles[self.mapFileComboItems[index]]
         if not mapfile:
             self._logger.error('Could not find map "' + self.selectedMapFile + '".')
