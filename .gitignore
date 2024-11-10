@@ -5,6 +5,7 @@ __pycache__
 /.settings/
 /widgets/map/res/*.svg
 /widgets/map/res/*.png
+/widgets/map/res/*.jpg
 /widgets/playerinfo/res/*.svg
 /widgets/playerinfo/res/*.png
 /widgets/shared/res/poi_house.svg
