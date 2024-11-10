@@ -62,9 +62,9 @@
     "label": "Far Harbor",
     "colorable": true,
     "file": "MapFarHarbor.png",
-    "nw": [69, 69],
-    "ne": [1979, 69],
-    "sw": [69, 1979]
+    "nw": [-940, -380],
+    "ne": [2500, -350],
+    "sw": [-940, 3040]
   },
   "nukaworldx": {
     "label": "Nuka World 1",
