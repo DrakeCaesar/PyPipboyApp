@@ -1,45 +1,77 @@
-{ 
-	"default": {
-		"label": "Original Map",
-		"colorable": true,
-		"file": "mapgreyscale.png",
-		"nw": [69, 69],
-		"ne": [1979, 69],
-		"sw": [69, 1979]
+{
+  "default": {
+    "label": "Original Map",
+    "colorable": true,
+    "file": "mapgreyscale.png",
+    "nw": [69, 69],
+    "ne": [1979, 69],
+    "sw": [69, 1979]
 	}, "defaultcolor": {
-		"label": "Original Map (Color)",
-		"colorable": false,
-		"file": "mapcolor.png",
-		"nw": [69, 69],
-		"ne": [1979, 69],
-		"sw": [69, 1979]
+    "label": "Original Map (Color)",
+    "colorable": false,
+    "file": "mapcolor.png",
+    "nw": [69, 69],
+    "ne": [1979, 69],
+    "sw": [69, 1979]
 	}, "greyscale-4k": {
-		"label": "Greyscale Map (4K)",
-		"colorable": true,
-		"file": "mapgreyscale-4k.png",
-		"nw": [138, 138],
-		"ne": [3958, 138],
-		"sw": [138, 3958]
+    "label": "Greyscale Map (4K)",
+    "colorable": true,
+    "file": "mapgreyscale-4k.png",
+    "nw": [138, 138],
+    "ne": [3958, 138],
+    "sw": [138, 3958]
 	}, "threadlevel-4k": {
-		"label": "Thread-Level Map (4K)",
-		"colorable": false,
-		"file": "mapthreatlevel-4k.png",
-		"nw": [138, 138],
-		"ne": [3958, 138],
-		"sw": [138, 3958]
+    "label": "Thread-Level Map (4K)",
+    "colorable": false,
+    "file": "mapthreatlevel-4k.png",
+    "nw": [138, 138],
+    "ne": [3958, 138],
+    "sw": [138, 3958]
 	}, "satview": {
-		"label": "Satellite View",
-		"colorable": true,
-		"file": "satview.jpg",
-		"nw": [-58, 454],
-		"ne": [3852, 454],
-		"sw": [-58, 4350]
+    "label": "Satellite View",
+    "colorable": true,
+    "file": "satview.png",
+    "nw": [-58, 454],
+    "ne": [3852, 454],
+    "sw": [-58, 4350]
 	}, "satview-color": {
-		"label": "Satellite View (Color)",
-		"colorable": false,
-		"file": "satview-color.jpg",
-		"nw": [-58, 454],
-		"ne": [3852, 454],
-		"sw": [-58, 4350]
-	}
+    "label": "Satellite View (Color)",
+    "colorable": false,
+    "file": "satview-color.png",
+    "nw": [-58, 454],
+    "ne": [3852, 454],
+    "sw": [-58, 4350]
+  },
+  "new-satview": {
+    "label": "S4iS3i's Satellite View",
+    "colorable": false,
+    "file": "fo4_map.bmp",
+    "nw": [265, 277],
+    "ne": [7950, 277],
+    "sw": [265, 7935]
+  },
+  "nukaworld": {
+    "label": "Nuka World",
+    "colorable": true,
+    "file": "NukaWorldMap.png",
+    "nw": [-1080, -543],
+    "ne": [3020, -543],
+    "sw": [-1080, 3600]
+  },
+  "farharbor": {
+    "label": "Far Harbor",
+    "colorable": true,
+    "file": "MapFarHarbor.png",
+    "nw": [69, 69],
+    "ne": [1979, 69],
+    "sw": [69, 1979]
+  },
+  "nukaworldx": {
+    "label": "Nuka World 1",
+    "colorable": true,
+    "file": "NukaWorldMap.png",
+    "nw": [-1080, -455],
+    "ne": [3020, -455],
+    "sw": [-1080, 3500]
+  }
 }

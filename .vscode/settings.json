@@ -1,0 +1,6 @@
+{
+  "python.analysis.extraPaths": [
+    "../../AppData/Local/Programs/Python/Python313/Lib/site-packages"
+  ],
+  "editor.formatOnSave": false
+}
