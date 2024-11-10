@@ -160,7 +160,7 @@ class PyPipboyApp(QtWidgets.QApplication):
             launcherpath = os.path.abspath(os.path.join(basepath, os.pardir, 'PyPipBoyApp-Launcher.exe'))
             print ('launcherpath: ' + str(launcherpath))
             if 'nt' in os.name:
-                from win32com.propsys import propsys, pscon
+                from win32com.propsys import propsys, pscon # type: ignore
                 import pythoncom
                 hwnd = self.mainWindow.winId()
                 propStore = propsys.SHGetPropertyStoreForWindow(hwnd, propsys.IID_IPropertyStore)
